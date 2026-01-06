@@ -1,8 +1,8 @@
-import style from './navbar.module.scss'
+import style from './navbar.module.css'
 
 export function Navbar (){
     return(
-    <nav>
+    <nav className={style.minNav}>
         <ul>
             <li><a href="#home">Home</a></li>
         </ul>
